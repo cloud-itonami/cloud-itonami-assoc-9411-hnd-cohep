@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "COHEP (Consejo Hondureño de la Empresa Privada)"
+ :abbreviation "COHEP"
+ :official-url "https://www.cohep.org/"
+ :isic "9411"
+ :country "HND"
+ :established-date "1967"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- cohep.org's own official '/quienes-somos/acerca/' page states verbatim: 'El Consejo Hondureño de la Empresa Privada, COHEP es una institución sin fines de lucro fundada en 1967' (year-only precision). Independently corroborated by ceib.info, which repeats the identical phrasing verbatim (an independent international business-federation directory mirroring COHEP's own self-description). es.wikipedia.org's own article corroborates the 1967 founding year in its infobox ('Fundación: 1967') and additionally states a precisely-dated milestone: 'El 24 de julio de 2025 abrió una sede regional en San Pedro Sula' (COHEP opened a regional office in San Pedro Sula on 24 July 2025)."}

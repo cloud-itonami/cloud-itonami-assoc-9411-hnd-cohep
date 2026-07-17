@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "cohep.founding-1967"
+                     :title "COHEP (Consejo Hondureño de la Empresa Privada) founded 1967 (cohep.org's own official page, independently corroborated by ceib.info and es.wikipedia.org)"
+                     :association "cohep"
+                     :isic "9411"
+                     :country "HND"
+                     :kind :governance-program
+                     :url "https://www.cohep.org/quienes-somos/acerca/"
+                     :url-provenance :official-cohep-org
+                     :established-date "1967"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "cohep.san-pedro-sula-office-2025-07-24"
+                     :title "COHEP opened a regional office in San Pedro Sula on 24 July 2025"
+                     :association "cohep"
+                     :isic "9411"
+                     :country "HND"
+                     :kind :governance-program
+                     :url "https://es.wikipedia.org/wiki/Consejo_Hondure%C3%B1o_de_la_Empresa_Privada"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "2025-07-24"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}]
