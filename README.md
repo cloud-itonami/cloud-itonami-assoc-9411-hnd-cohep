@@ -63,7 +63,7 @@ fabricate one.
   `com-junkawasaki/root`'s `scripts/compliance-fact-query.cljs`).
 - `src/association_facts.kotoba` — the Kotoba port, which reaches the
   Kotoba oracle, wasm and both native ISAs. **Generated** — run
-  `nbb tools/gen_kotoba.cljs` after changing the data; do not hand-edit.
+  `kbb --backend sci tools/gen_kotoba.cljk` after changing the data; do not hand-edit.
 - `schema/association-rule.edn` — DataScript schema.
 
 The `.cljc` is written by hand and the `.kotoba` is generated from the
